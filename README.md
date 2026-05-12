@@ -3,7 +3,8 @@
 A scalable async URL shortener built with **FastAPI**, **SQLite** (or **PostgreSQL**), in-memory caching, rate limiting, JWT authentication, and a modern web UI.  
 The project is designed to demonstrate production-ready backend engineering concepts and can be easily extended with Redis, PostgreSQL, Docker, and CI/CD.
 
-![UI Screenshot](assets/screenshot.png)  
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9de9e24e-7a4b-478b-b70e-7bb6def5f690" />
+
 *Replace this with an actual screenshot of your app*
 
 ---
@@ -42,8 +43,4 @@ The project is designed to demonstrate production-ready backend engineering conc
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cf09306d-acad-4940-ae96-44d96195ea16" />
 
 
-You can add screenshots in the `assets/` folder (or any path you like) and then reference them like:
 
-```markdown
-![Homepage](assets/screenshot1.png)
-![Shortened URL](assets/screenshot2.png)
