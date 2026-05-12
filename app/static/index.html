@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShortLink</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>✂️ ShortLink</h1>
+    <p>Paste a long URL and get a short, shareable link.</p>
+    <div class="form-group">
+      <input type="url" id="originalUrl" placeholder="https://example.com/very-long-url...">
+      <input type="text" id="alias" placeholder="Custom alias (optional)" maxlength="20">
+      <input type="number" id="expiry" placeholder="Expire in days (optional)" min="1">
+      <button id="shortenBtn">Shorten</button>
+    </div>
+    <div id="result" class="result-box hidden"></div>
+    <div class="footer">Built with FastAPI</div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
